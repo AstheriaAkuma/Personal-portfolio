@@ -1,0 +1,98 @@
+header{
+    /*Max width and height of a page*/
+    width: 1440px;
+    height: 900px;
+    background: url('../../assets/home.png');
+    background-size: cover;
+    background-position: center top; /*To crop the image */
+    background-repeat: no-repeat;
+}
+
+header .wrapper{
+    position: relative;
+    height: 100%;
+}
+
+header .cta{
+    /*Position of an object in a site*/
+    position: absolute;
+    left: 20px;
+    top: 220px; 
+    margin: 0 60px;
+}
+
+.discover{
+    color: #E9DEFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -5px;
+    margin: 0;
+  }
+  
+  .nathalias{
+    background: linear-gradient(93deg, #FD8FFF 54.17%, #CA81FF 83.59%, #BED9FC 95.56%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Georgia, serif;
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -5px;
+    margin: 0;
+  }
+  
+  .introduction{
+      color: #E9DEFF;
+      font-family: Montserrat;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.4; /* 33.6px */
+      letter-spacing: -0.96px;
+  }
+  
+  .connect-btn {
+    
+        /* Button layout */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+      /*For Background */
+      width: 220px;
+      height: 59px;
+      flex-shrink: 0;
+      border-radius: 20px;
+      border: 3px solid #FFF;
+      background: transparent;
+      
+      /*For Text */
+      color: #FFF;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%; 
+      letter-spacing: -1.25px;
+      padding: 0 15px; 
+      gap: 5px;
+      }
+
+
+    .connect-btn .arrow {
+        margin-left: 15px; 
+        width: 20px;       
+        height: 20px;
+        padding: 0;
+    }
+
+    .connect-btn:hover {
+        background-color: #271c3579;
+        filter: brightness(0.7);
+    }
+

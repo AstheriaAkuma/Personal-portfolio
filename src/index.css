@@ -1,0 +1,27 @@
+:root{
+    --dark-color: #0B001A;
+    --dark-purple-color: #27005D;
+    --indigo-color: #1C1C65;
+    --light-purple-color: #9400FF;
+    --light-blue-color: #AED2FF;
+    --light-color: #E4F1FF;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Montserrat", system-ui;
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+ 
